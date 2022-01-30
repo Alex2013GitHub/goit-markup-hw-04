@@ -182,6 +182,15 @@ body {
 
 /* -----------------About---------------*/
 
+.icon-about {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  fill: #212121;
+  width: 100%;
+  height: 100%;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
