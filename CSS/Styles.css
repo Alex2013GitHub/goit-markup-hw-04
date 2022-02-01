@@ -102,6 +102,13 @@ body {
 .header-link + .header-link {
   margin-left: 50px;
 }
+
+.icon-header {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -358,8 +365,13 @@ body {
 /* ---------footer------------ */
 
 .footer {
+  display: flex;
+  align-items: baseline;
   background-color: var(--background);
   padding: 60px 60px;
+}
+.footer-social{
+  
 }
 
 .logo-footer {
@@ -393,6 +405,13 @@ address {
   margin-bottom: 9px;
 }
 
+.footer-social-text {
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
 /* ----------Button----------- */
 
 .button-list {
