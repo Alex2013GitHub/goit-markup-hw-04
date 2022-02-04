@@ -9,6 +9,7 @@
   --background: #2f303a;
   --social: #afb1b8;
   --background-section: #e5e5e5;
+  --border-color:#eeeeee;
 }
 
 p,
@@ -481,9 +482,9 @@ address {
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
 }
 
 .content-link:focus,
@@ -513,6 +514,9 @@ address {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  
+}
+
+.content-img{
+  width: 370px;
 }
 
